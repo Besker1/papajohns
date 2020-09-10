@@ -3,7 +3,7 @@ body{
 }
 
 header{
-  background-color: blue;
+  background-color: white;
   margin-bottom: 40px;
 }
 
@@ -11,8 +11,6 @@ header h1{
   text-align: center;
 
   margin: 0;
-
-  color: #fff;
 
   padding: 20px;
 }
@@ -29,7 +27,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  color: #fff;
+  color:black;
   text-decoration: none;
   margin: 0 20px 0 0
 
@@ -39,16 +37,10 @@ header nav ul li :last-child a{
   margin: 0px;
 }
 
+/*about*/
 
-
-#about{
-  background-color: darkgoldenrod;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  margin: 0rem;
-
+#about #id{
+  margin-right: 200px;
 }
 /* intro*/
 #intro{
@@ -89,7 +81,7 @@ input[type=text], textarea {
   border-radius: 8px; 
   width: 50%;
   border: 1px solid gray;
-  box-sizing: border-box; 
+  box-sizing: inherit; 
   resize: vertical 
 }
 
@@ -121,10 +113,6 @@ img{
 .item {
   flex: 1;
   margin: 10px;
-}
-
-.img.rounded{
-  border-radius: 10px;
 }
 
 h2{
