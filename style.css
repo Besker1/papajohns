@@ -39,9 +39,7 @@ header nav ul li :last-child a{
 
 /*about*/
 
-#about #id{
-  margin-right: 200px;
-}
+
 /* intro*/
 #intro{
   display: flex;
@@ -56,6 +54,12 @@ header nav ul li :last-child a{
 }
 
 /* contact*/
+
+
+.form{
+  text-align: center;
+}
+
 #contact{
   display: flex;
   flex-direction: column;
@@ -66,11 +70,12 @@ header nav ul li :last-child a{
 
 input[type=submit] {
   color: blue;
-  margin-top: 20px;
+  margin-top: 20px ;
   padding: 10px 15px;
   border-radius: 8px;
   cursor: pointer;  
   border: none;
+  text-align: center;
 
 }
 
@@ -81,8 +86,7 @@ input[type=text], textarea {
   border-radius: 8px; 
   width: 50%;
   border: 1px solid gray;
-  box-sizing: inherit; 
-  resize: vertical 
+
 }
 
 
