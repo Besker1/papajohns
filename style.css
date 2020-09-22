@@ -38,6 +38,9 @@ header nav ul li :last-child a{
 }
 
 /*about*/
+#about{
+  background-color: blanchedalmond;
+}
 
 
 /* intro*/
@@ -53,43 +56,31 @@ header nav ul li :last-child a{
   list-style: none;
 }
 
-/* contact*/
+/* 
 
-
-.form{
-  text-align: center;
-}
-
+ */
 #contact{
   display: flex;
   flex-direction: column;
-}
-
-
-
-
-input[type=submit] {
-  color: blue;
-  margin-top: 20px ;
-  padding: 10px 15px;
-  border-radius: 8px;
-  cursor: pointer;  
-  border: none;
+  justify-content: center;
   text-align: center;
-
+  margin-top: 20px;
 }
-
-
-input[type=text], textarea {
-  margin: 10px 0 10px 0;
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+input[type=text],textarea{
+  margin: 20px;
   padding: 10px;
   border-radius: 8px; 
   width: 50%;
   border: 1px solid gray;
 
-}
-
-
+} 
 
 #mail{
   display: flex;
@@ -97,6 +88,28 @@ input[type=text], textarea {
   margin-top: 20px;
   padding: 20px;
 }
+
+span{
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+#submit_button{ 
+  background-color: grey;
+  height: 30px;
+  width: 10%;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+
 
 /*projects*/
 .container {
